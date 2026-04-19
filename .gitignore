@@ -1,0 +1,24 @@
+# 模型文件夹（30GB+）
+models/
+*.safetensors
+*.bin
+
+# 原始股票全量数据（如果你有）
+0_data/stock_data.pkl
+
+# 中间输出（可选，不必要上传）
+2_outputs/*.csv
+2_outputs/*.xlsx
+!2_outputs/scoring_table_full.xlsx
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 虚拟环境
+llm_research/
+env/
