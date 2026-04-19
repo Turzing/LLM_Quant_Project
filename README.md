@@ -24,6 +24,28 @@ We evaluate the **explanation-decision consistency** of LLaMA-2-7B on a quantita
 - seaborn 0.13.1
 - scipy 1.11.4
 
+## Training
+
+Training is run using:
+```
+python train_eval.py
+download_model.py
+step1_download_data.py
+step2_sample.py
+step3_build_prompts.py
+step4_llm_inference.py
+step5_merge_human.py
+step6_prepare_scoring_full.py
+step8_analysis_full.py
+```
+
+## Testing
+
+Testing is run using:
+```
+step7_score_cli.py
+```
+
 ## Key Results (from our experiments)
 
 | Model / Condition | EDCS (mean ± std) | Sample Size | Key Finding |
