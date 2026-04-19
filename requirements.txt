@@ -1,0 +1,27 @@
+## 📄 requirements.txt
+```text
+# Core dependencies for LLM inference
+torch==2.1.0+cu118
+transformers==4.36.2
+accelerate==0.26.1
+bitsandbytes==0.41.3
+
+# Data processing
+pandas==2.1.4
+numpy==1.24.3
+openpyxl==3.1.2
+tqdm==4.66.1
+
+# Technical indicators and finance
+ta==0.10.2
+# yfinance==0.2.33   # optional, not used in final pipeline
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Statistics
+scipy==1.11.4
+
+# Hugging Face Hub (for model download)
+huggingface_hub==0.20.3
