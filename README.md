@@ -28,22 +28,21 @@ We evaluate the **explanation-decision consistency** of LLaMA-2-7B on a quantita
 
 Training is run using:
 ```
-python train_eval.py
-download_model.py
-step1_download_data.py
-step2_sample.py
-step3_build_prompts.py
-step4_llm_inference.py
-step5_merge_human.py
-step6_prepare_scoring_full.py
-step8_analysis_full.py
+python download_model.py
+python step1_download_data.py
+python step2_sample.py
+python step3_build_prompts.py
+python step4_llm_inference.py
+python step5_merge_human.py
+python step6_prepare_scoring_full.py
+python step8_analysis_full.py
 ```
 
 ## Testing
 
 Testing is run using:
 ```
-step7_score_cli.py
+python step7_score_cli.py
 ```
 
 ## Key Results (from our experiments)
