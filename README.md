@@ -2,7 +2,6 @@
 
 This repository contains the code and data for the paper:  
 **"Can Large Language Models Explain Their Trading Decisions? A Human Evaluation of LLaMA-2 with Stress Tests and Confidence Calibration"**  
-*(Submitted to ICNLP 2026)*
 
 ## Overview
 
