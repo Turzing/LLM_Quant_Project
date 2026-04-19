@@ -14,6 +14,15 @@ We evaluate the **explanation-decision consistency** of LLaMA-2-7B on a quantita
 - Compare LLaMA-2 with **human baselines** (3 non-expert traders, 360 samples).
 - Analyze self-reported **confidence calibration** (optional).
 
+## Requirements
+
+pytorch 2.1.0
+pandas 2.1.4
+numpy 1.24.3
+matplotlib 3.8.2
+seaborn 0.13.1
+scipy 1.11.4
+
 ## Key Results (from our experiments)
 
 | Model / Condition | EDCS (mean ± std) | Sample Size | Key Finding |
