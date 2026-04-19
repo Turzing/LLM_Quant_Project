@@ -16,12 +16,13 @@ We evaluate the **explanation-decision consistency** of LLaMA-2-7B on a quantita
 
 ## Requirements
 
-pytorch 2.1.0
-pandas 2.1.4
-numpy 1.24.3
-matplotlib 3.8.2
-seaborn 0.13.1
-scipy 1.11.4
+- python 3.10
+- pytorch 2.1.0
+- pandas 2.1.4
+- numpy 1.24.3
+- matplotlib 3.8.2
+- seaborn 0.13.1
+- scipy 1.11.4
 
 ## Key Results (from our experiments)
 
